@@ -1,0 +1,7 @@
+configuracion:
+  texto: Configurando entorno de produccion
+  autor:
+    nombre: Carlos Zapata
+    email: carlos@codesa.com.co
+server:
+  port: 8007    
