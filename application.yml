@@ -1,8 +1,0 @@
-config:
-  security:
-    oauth:
-      client:
-        id: frontedapp
-        secret: 123456
-      jwt:
-        key: algun_codigo_secreto_123456
