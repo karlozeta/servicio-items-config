@@ -7,7 +7,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.HSQLDialect
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
       
 logging:
   level:
