@@ -1,13 +1,13 @@
 spring:
   datasource:
-    url: jdbc:hsqldb:hsql://microservicios-hsqldb3/test
-    username: sa
-    password: 
-    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:mysql://microservicios-mysql18:3306/db_springboot_cloud
+    username: root
+    password: sasa
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
-    database-platform: org.hibernate.dialect.HSQLDialect
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
       
 logging:
   level:
