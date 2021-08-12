@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://microservicios-mysql8:3306/db_springboot_cloud
     username: root
     password: sasa
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
